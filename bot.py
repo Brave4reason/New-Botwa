@@ -315,13 +315,13 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("ℹ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ℹ",
-                                             url="https://t.me/sourcebotcode/2")
-                    ],
-                    [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                    ]
+                    # [
+                    #     InlineKeyboardButton("ℹ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ℹ",
+                    #                          url="https://t.me/sourcebotcode/2")
+                    # ],
+                    # [
+                    #     InlineKeyboardButton("Go Home", callback_data="gotohome"),
+                    # ]
                 ]
             )
         )
