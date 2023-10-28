@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/khandudon302"),
+                        InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/xbhau"),
                     ],
                     [
                         InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
@@ -122,7 +122,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact Owner (https://t.me/khandudon302)",
+            await message.reply_text("Sorry, You are banned!\n\nContact Owner (https://t.me/xbhau)",
                                      disable_web_page_preview=True)
             return
 
@@ -351,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/khandudon302"),
+                        InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/xbhau"),
                     ],
                     [
                         InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
@@ -396,7 +396,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my Owner (https://t.me/badal6667rai).",
+                    text="Something went Wrong. Contact my Owner (https://t.me/xbhau).",
                     disable_web_page_preview=True
                 )
                 return
@@ -406,7 +406,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/khandudon302"),
+                        InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/xbhau"),
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
