@@ -76,13 +76,13 @@ async def start(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/xbhau"),
                     ],
-                    [
-                        InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
-                        InlineKeyboardButton("✖ ꜱʟᴇᴇᴘ ᴍᴏᴅᴇ ✖", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("✨ ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴡ ✨", url="tg://settings")
-                    ]
+                    # [
+                    #     InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
+                    #     InlineKeyboardButton("✖ ꜱʟᴇᴇᴘ ᴍᴏᴅᴇ ✖", callback_data="closeMessage")
+                    # ],
+                    # [
+                    #     InlineKeyboardButton("✨ ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴡ ✨", url="tg://settings")
+                    # ]
                 ]
             )
         )
