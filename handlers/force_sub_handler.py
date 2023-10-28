@@ -42,15 +42,15 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use this Bot!",
+            text="**You need to join in my Channel/Group to use me!**\n\n"
+                 "Kindly Please join Channel!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton(" Join Channel", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                        InlineKeyboardButton("Refresh 🔄", callback_data="refreshForceSub")
                     ]
                 ]
             )
@@ -59,7 +59,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/VJ_Bot_Disscussion).",
+            text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Xbhau).",
             disable_web_page_preview=True
         )
         return 200
