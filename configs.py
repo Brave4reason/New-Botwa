@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "25435105"))
+  API_ID = int(os.environ.get("API_ID", "26190095"))
   API_HASH = os.environ.get("API_HASH", "5aa2f97407dbd5a32c9668a5e3a926ba")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6853611135:AAGKDfpA157zr4LwHYleQPG442qSAmLBpRQ")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "MangaTalesbot")
