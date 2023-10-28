@@ -332,14 +332,14 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("ℹ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ℹ",
-                                             url="https://t.me/sourcebotcode/2")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
-                    ]
+                    # [
+                    #     InlineKeyboardButton("ℹ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ℹ",
+                    #                          url="https://t.me/sourcebotcode/2")
+                    # ],
+                    # [
+                    #     InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                    #     InlineKeyboardButton("Go Home", callback_data="gotohome")
+                    # ]
                 ]
             )
         )
@@ -353,13 +353,13 @@ async def button(bot: Client, cmd: CallbackQuery):
                     [
                         InlineKeyboardButton("🔹 ᴏᴡɴᴇʀ 🔹", url="https://t.me/xbhau"),
                     ],
-                    [
-                        InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
-                        InlineKeyboardButton("✖ ꜱʟᴇᴇᴘ ᴍᴏᴅᴇ ✖", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("✨ ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴡ ✨", url="tg://settings")
-                    ]
+                    # [
+                    #     InlineKeyboardButton("♥ ᴀʙᴏᴜᴛ ᴍᴇ ♥", callback_data="aboutbot"),
+                    #     InlineKeyboardButton("✖ ꜱʟᴇᴇᴘ ᴍᴏᴅᴇ ✖", callback_data="closeMessage")
+                    # ],
+                    # [
+                    #     InlineKeyboardButton("✨ ʙᴇꜱᴛ ᴘʀꜱɴ ɪ ᴋɴᴏᴡ ✨", url="tg://settings")
+                    # ]
                 ]
             )
         )
