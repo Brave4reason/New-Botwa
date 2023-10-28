@@ -50,7 +50,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                         InlineKeyboardButton(" Join Channel", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("Refresh 🔄", url=f"https://t.me/{bot.username}?start={cmd.command[1]}")
+                       InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
                     ]
                 ]
             )
