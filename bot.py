@@ -388,7 +388,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                                 InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("🔄 Refresh 🔄",url= f"https://t.me/{client.username}?start={message.command[1]}")
                             ]
                         ]
                     )
